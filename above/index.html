@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
 							<li><a href="#resume" class="scroll"><span data-hover="resume">resume</span></a></li>
 							<li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
-							<li><a href="#work" class="scroll"><span data-hover="Project"><span>Project</span></a></li>
+							<li><a href="#project" class="scroll"><span data-hover="Project"><span>Project</span></a></li>
 							<li><a href="#services" class="scroll"><span data-hover="services">services</span></a></li>
 							<li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
 						</nav>
@@ -95,16 +95,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<img src="images/pic-9.jpg" alt="" />
 					</div>
 					<div class="about-text">
-						<p>An aspiring MERN Stack Developer.I lost myself when I dive into the codes. I am a
-							professional web designer and developer.No project is too big or too small for me. Recently
-							I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap,
-							Jquery, React, Node JS, Express JS, Mongo DB. Resourceful Web Developer lends hands-on
-							approach to customizing web presence strategy. More than 2 years of experience working
-							closely with Web Development to outline organizational needs and translate them into
-							extensive lines of code that support objectives. Adept creation of scripts using HTML, CSS
-							and JavaScript to convey unique branding and promote sales and marketing opportunities.
-							Specialty supporting intricate backend needs and lending assistance throughout webpage
-							lifecycle.</p>
+						<p>I am a MERN Stack Developer. I am a
+                            professional web designer and developer Recently
+                            I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap,
+                            Jquery, React, Node JS, Express JS, Mongo DB. Resourceful Web Developer lends hands-on
+                            approach to customizing web presence strategy. Adept creation of scripts using HTML, CSS
+                            , and JavaScript to convey unique branding and promote sales and marketing opportunities.
+                            Especially supporting intricate backend needs and lending assistance throughout the webpage
+                            lifecycle.</p>
 						<Button id="resume" class="btn btn-danger"> <a style="text-decoration: none;"
 								href="https://drive.google.com/file/d/1VWNcbsJFVc_X25sEIceQSK8t2CdSJRbB/view?usp=sharing"
 								target="_blank" rel="noopener noreferrer"><span
@@ -239,7 +237,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<!-- about-section-ends -->
-		<h1 class="text-center">Project</h1>
+		<h1 id="project" class="text-center">PROJECT</h1>
 		<div class="all-project">
 			<div class="card clo-md-4" style="margin: 20px;">
 				<img style="width: 300px;" src="images/Screenshot (21).png" class="card-img-top" alt="...">
@@ -319,8 +317,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-4 services-grid">
 						<img src="images/img1.png" alt="" />
 						<h4>webdesign</h4>
-						<p>In today’s digital world, your website is the first interaction consumers have with your
-							business. That's why almost 95 percent of a user’s first impression relates to web design
+						<p>In today’s  world, your website is the first interaction consumers have with your
+							business. That's why almost 95% of a user’s first impression relates to web design
 						</p>
 					</div>
 					<div class="col-md-4 services-grid">
@@ -371,20 +369,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="contact">
 				<form action="https://formsubmit.co/mahirasef30@gmail.com" method="POST">
 					<div class="col-md-4 contactgrid">
-						<input type="text" class="text" value=" name" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = ' name';}" required>
+						<input type="text" class="text" value="Name"  name="name" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = ' Name';}" required>
 					</div>
 					<div class="col-md-4 contactgrid">
-						<input type="text" class="text" value="email" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'email';}" required>
+						<input type="text" class="text" value="Email"  name="email" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Email';}" required>
 					</div>
 					<div class="col-md-4 contactgrid">
-						<input type="text" class="text" value="phone" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'phone';}" required>
+						<input type="text" class="text" value="Phone"  name="phone" onfocus="this.value = '';"
+							onblur="if (this.value == '') {this.value = 'Phone';}" required>
 					</div>
 					<div class="col-md-8 contactgrid1">
-						<textarea onfocus="if(this.value == 'Your Message') this.value='';"
-							onblur="if(this.value == '') this.value='Your Message';" required>Your Message</textarea>
+						<textarea name="message" onfocus="if(this.value == 'Your Message') this.value='';"
+							onblur="if(this.value == '') this.value='Your Message';">Your Message</textarea>
+							<input type="hidden" name="_captcha" value="false">
 					</div>
 					<div class="col-md-4 contactgrid2">
 						<input type="submit" value="[send message]">
